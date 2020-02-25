@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Calendario.class);
         startActivity(i);
     }
+    public void Notas(View view) {
+        Intent i = new Intent(this, Notas.class);
+        startActivity(i);
+    }
 }
